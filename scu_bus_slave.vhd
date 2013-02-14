@@ -198,7 +198,7 @@ USE IEEE.numeric_std.all;
 use ieee.math_real.all;
 
 library	work;
-use work.auxiliary_functions_pkg.debounce;
+use work.aux_functions_pkg.debounce;
 
 ENTITY SCU_Bus_Slave IS
 		
