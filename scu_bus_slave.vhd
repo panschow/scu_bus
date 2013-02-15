@@ -353,7 +353,7 @@ port
   signal    S_Intr_Enable:        std_logic_vector(Intr_In'range);
   signal    S_Intr_Mask:          std_logic_vector(Intr_In'range);
   signal    S_Intr_Pending:       std_logic_vector(Intr_In'range);
-  signal    S_Wr_Intr_Pendig:     std_logic_vector(1 downto 0);
+  signal    S_Wr_Intr_Pending:    std_logic_vector(1 downto 0);
   signal    S_Intr_Active:        std_logic_vector(Intr_In'range);
   signal    S_Wr_Intr_Active:     std_logic_vector(1 downto 0);
   signal    S_Intr_Level_Neg:     std_logic_vector(Intr_In'range);
